@@ -1,8 +1,27 @@
+import { Button } from "@mui/material";
 import React from "react";
+import { delay, motion } from "framer-motion";
 
 export default function HeroSection() {
+  const divVariants = {
+    hidden: {
+      opacity: 0,
+    },
+    visible: {
+      opacity: 1,
+    },
+    transition: {
+      delay: 0.3,
+      duration: 1.8,
+    },
+  };
+
   return (
-    <div
+    <motion.div
+      variants={divVariants}
+      initial="hidden"
+      animate="visible"
+      transition={{ delay: 0.3, duration: 1.5 }}
       style={{
         height: "100vh",
         display: "flex",
@@ -19,6 +38,20 @@ export default function HeroSection() {
           Discover amazing travel stories, tips, and destination guides to fuel
           your wanderlust and make your next adventure unforgettable
         </p>
+        <motion.div>
+          <Button
+            variant="outlined"
+            style={{
+              borderRadius: "10px",
+              padding: "0.5rem",
+              color: "black",
+              borderColor: "gray",
+              letterSpacing: "2px",
+            }}
+          >
+            Get Started
+          </Button>
+        </motion.div>
       </div>
       <div style={{ flex: 2, maxWidth: "50vw" }}>
         <img
@@ -27,6 +60,6 @@ export default function HeroSection() {
           alt=""
         />
       </div>
-    </div>
+    </motion.div>
   );
 }

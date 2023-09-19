@@ -1,9 +1,13 @@
 import React from "react";
 import AcUnitIcon from "@mui/icons-material/AcUnit";
+import { motion } from "framer-motion";
 
 export default function SeventhSection() {
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ delay: 0.3, duration: 1.7 }}
       style={{
         display: "grid",
         gap: "2rem",
@@ -83,6 +87,6 @@ export default function SeventhSection() {
           aut.
         </h6>
       </div>
-    </div>
+    </motion.div>
   );
 }

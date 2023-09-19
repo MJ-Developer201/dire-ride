@@ -1,12 +1,18 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 export default function BelowTheFold() {
   return (
-    <div>
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ delay: 0.3, duration: 1.7 }}
+    >
       <div
         style={{
           display: "flex",
           borderBottom: "1px solid #151c5214",
+          height: "100vh",
         }}
       >
         <div style={{ flex: 1, order: 2 }}>
@@ -23,8 +29,8 @@ export default function BelowTheFold() {
         <div style={{ flex: 2, maxWidth: "40%" }}>
           <img
             style={{
-              objectFit: "contain",
-              maxHeight: "100%",
+              objectFit: "cover",
+              height: "100vh",
               maxWidth: "100%",
             }}
             src="../../public/william-daigneault-xm8S8wnCcC0-unsplash.jpg"
@@ -32,6 +38,6 @@ export default function BelowTheFold() {
           />
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }

@@ -1,8 +1,14 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 export default function FifthSection() {
   return (
-    <div style={{ display: "flex", borderBottom: "1px solid #151c5214" }}>
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ delay: 0.3, duration: 1.7 }}
+      style={{ display: "flex", borderBottom: "1px solid #151c5214" }}
+    >
       <div style={{}}>
         <img
           style={{ objectFit: "cover", height: "100%", width: "100%" }}
@@ -32,6 +38,6 @@ export default function FifthSection() {
           alt=""
         />
       </div>
-    </div>
+    </motion.div>
   );
 }

@@ -1,8 +1,11 @@
 import React from "react";
-
+import { motion } from "framer-motion";
 export default function FourthSection() {
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ delay: 0.3, duration: 1.7 }}
       style={{
         display: "flex",
         justifyContent: "center",
@@ -20,6 +23,6 @@ export default function FourthSection() {
           sunt fugit.
         </p>
       </div>
-    </div>
+    </motion.div>
   );
 }
