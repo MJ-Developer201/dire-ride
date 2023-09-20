@@ -23,35 +23,50 @@ export default function HeroSection() {
       animate="visible"
       transition={{ delay: 0.3, duration: 1.5 }}
       style={{
+        justifyContent: "center",
         height: "100vh",
         display: "flex",
         borderBottom: "1px solid #151c5214",
       }}
     >
       <div style={{ flex: 1 }}>
-        <h1>Travleres Blog!</h1>
-
-        <h4>
-          Explore the World with Us, Share Your Journeys, and Find Hidden Gems
-        </h4>
-        <p>
-          Discover amazing travel stories, tips, and destination guides to fuel
-          your wanderlust and make your next adventure unforgettable
-        </p>
-        <motion.div>
-          <Button
-            variant="outlined"
+        <div
+          style={{
+            maxWidth: "650px",
+            marginLeft: "auto",
+            marginRight: "auto",
+            paddingTop: "10rem",
+            maxWidth: "600px",
+          }}
+        >
+          <h1 style={{ marginBlock: "3rem" }}>Travleres Blog</h1>
+          <h4 style={{ marginBlock: "5rem" }}>
+            Explore the World with Us, Share Your Journeys, and Find Hidden Gems
+          </h4>
+          <p>
+            Discover amazing travel stories, tips, and destination guides to
+            fuel your wanderlust and make your next adventure unforgettable
+          </p>
+          <motion.div
             style={{
-              borderRadius: "10px",
-              padding: "0.5rem",
-              color: "black",
-              borderColor: "gray",
-              letterSpacing: "2px",
+              display: "flex",
             }}
           >
-            Get Started
-          </Button>
-        </motion.div>
+            <Button
+              variant="outlined"
+              style={{
+                marginBlock: "3rem",
+                borderRadius: "10px",
+                padding: "0.5rem",
+                color: "white",
+                borderColor: "gray",
+                letterSpacing: "2px",
+              }}
+            >
+              Get Started
+            </Button>
+          </motion.div>
+        </div>
       </div>
       <div style={{ flex: 2, maxWidth: "50vw" }}>
         <img

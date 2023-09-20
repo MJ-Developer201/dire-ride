@@ -7,6 +7,8 @@ import FourthSection from "../components/FourthSection";
 import SixthSection from "../components/SixthSection";
 import SeventhSection from "../components/SeventhSection";
 import EighthSection from "../components/EighthSection";
+import Footer from "../components/Footer";
+import SecondSectionPartTwo from "../components/SecondSectionPartTwo";
 
 export default function HomePage() {
   return (
@@ -14,11 +16,13 @@ export default function HomePage() {
       <HeroSection />
       <BelowTheFold />
       <ThirdSection />
+      <SecondSectionPartTwo />
       <FourthSection />
       <FifthSection />
       <SixthSection />
       <SeventhSection />
       <EighthSection />
+      <Footer />
     </div>
   );
 }

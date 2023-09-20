@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-export default function ThirdSection() {
+export default function SecondSectionPartTwo() {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -17,7 +17,14 @@ export default function ThirdSection() {
           justifyItems: "center",
         }}
       >
-        <div style={{ flex: 1 }}>
+        <div
+          style={{
+            flex: 1,
+            order: 2,
+            maxWidth: "600px",
+            paddingLeft: "2.5rem",
+          }}
+        >
           <h2
             style={{
               paddingBlock: "1rem",
@@ -25,7 +32,7 @@ export default function ThirdSection() {
               paddingTop: "3rem",
             }}
           >
-            New Content Heading
+            Travleres Blog!
           </h2>
 
           <p
@@ -33,11 +40,13 @@ export default function ThirdSection() {
               marginBlock: "1rem",
               fontWeight: "200",
               lineHeight: "2.1rem",
-              maxWidth: "57ch",
+              maxWidth: " 57ch",
             }}
           >
-            Replace this with your new content. You can add your own text and
-            descriptions here. Customize it as you need.
+            Discover amazing travel stories, tips, and destination guides to
+            fuel your wanderlust and make your next adventure unforgettable.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ad
+            voluptatum in deserunt repellat
           </p>
         </div>
         <div style={{ flex: 2, maxWidth: "40%" }}>
@@ -47,7 +56,7 @@ export default function ThirdSection() {
               height: "300px",
               maxWidth: "100%",
             }}
-            src="../../public/deniz-demirci-0UeHGWsFyHM-unsplash.jpg"
+            src="../../public/towfiqu-barbhuiya-5m5418Ng6t8-unsplash.jpg"
             alt=""
           />
         </div>
