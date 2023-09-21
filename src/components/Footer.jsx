@@ -1,19 +1,13 @@
-import React from "react";
-import {
-  Container,
-  IconButton,
-  Grid,
-  Typography,
-  Divider,
-} from "@mui/material";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import TwitterIcon from "@mui/icons-material/Twitter";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import PinterestIcon from "@mui/icons-material/Pinterest";
-import LocationOnIcon from "@mui/icons-material/LocationOn";
-import PhoneIcon from "@mui/icons-material/Phone";
-import { delay, motion } from "framer-motion";
+import React from 'react'
+import { Container, IconButton, Grid, Typography, Divider } from '@mui/material'
+import FacebookIcon from '@mui/icons-material/Facebook'
+import TwitterIcon from '@mui/icons-material/Twitter'
+import InstagramIcon from '@mui/icons-material/Instagram'
+import LinkedInIcon from '@mui/icons-material/LinkedIn'
+import PinterestIcon from '@mui/icons-material/Pinterest'
+import LocationOnIcon from '@mui/icons-material/LocationOn'
+import PhoneIcon from '@mui/icons-material/Phone'
+import { delay, motion } from 'framer-motion'
 
 export default function Footer() {
   const divVariants = {
@@ -27,7 +21,7 @@ export default function Footer() {
       delay: 0.3,
       duration: 1.8,
     },
-  };
+  }
 
   return (
     <>
@@ -40,45 +34,45 @@ export default function Footer() {
 
         <footer
           style={{
-            backgroundColor: "black",
-            color: "white",
-            padding: "20px 0",
+            backgroundColor: 'black',
+            color: 'white',
+            padding: '20px 0',
           }}
         >
-          <Container maxWidth="lg">
-            <Grid container justifyContent="space-between" alignItems="center">
+          <Container maxWidth='lg'>
+            <Grid container justifyContent='space-between' alignItems='center'>
               <Grid item>
                 <IconButton>
-                  <FacebookIcon style={{ color: "white" }} />
+                  <FacebookIcon style={{ color: 'white' }} />
                 </IconButton>
                 <IconButton>
-                  <TwitterIcon style={{ color: "white" }} />
+                  <TwitterIcon style={{ color: 'white' }} />
                 </IconButton>
                 <IconButton>
-                  <InstagramIcon style={{ color: "white" }} />
+                  <InstagramIcon style={{ color: 'white' }} />
                 </IconButton>
                 <IconButton>
-                  <LinkedInIcon style={{ color: "white" }} />
+                  <LinkedInIcon style={{ color: 'white' }} />
                 </IconButton>
                 <IconButton>
-                  <PinterestIcon style={{ color: "white" }} />
+                  <PinterestIcon style={{ color: 'white' }} />
                 </IconButton>
               </Grid>
               <Grid item>
                 <div
                   style={{
-                    textAlign: "center",
-                    color: "black",
-                    color: "white",
+                    textAlign: 'center',
+                    color: 'black',
+                    color: 'white',
                   }}
                 >
-                  <Typography variant="body2">
-                    <LocationOnIcon /> 123 Car Detailing St,
+                  <Typography variant='body2'>
+                    <LocationOnIcon /> 476 Sunshine Boulevard,
                     <br />
-                    City, State ZIP
+                    Los Angles, CA 90001
                   </Typography>
-                  <Typography style={{ color: "white" }} variant="body2">
-                    <PhoneIcon /> (123) 456-7890
+                  <Typography style={{ color: 'white' }} variant='body2'>
+                    <PhoneIcon /> (650) 356-7890
                   </Typography>
                 </div>
               </Grid>
@@ -87,5 +81,5 @@ export default function Footer() {
         </footer>
       </motion.div>
     </>
-  );
+  )
 }
