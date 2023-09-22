@@ -26,6 +26,7 @@ export default function SeventhSection() {
       }}
     >
       <div
+        id='services'
         style={{
           display: 'flex',
           flexDirection: 'column',

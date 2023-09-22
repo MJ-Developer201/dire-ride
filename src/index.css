@@ -2,12 +2,38 @@ body {
   margin: 0 auto;
 }
 
+.hero-button:hover {
+  background-color: rgb(253, 253, 253, 0.9) !important;
+  color: rgb(37, 36, 36) !important;
+  font-size: 0.9rem;
+}
 
 
-@media (max-Width: 950px) {
+.desktop-container {
+  display: none;
+}
+
+
+@media (max-Width: 850px) {
+
+  .hero-mobile-div {
+    display: flex !important;
+    padding-block: 2rem;
+
+    background-image: url('../public/popescu-andrei-alexandru-KQjBXXPRsYM-unsplash.jpg');
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+
+
+
 
   .hero-div {
-    display: grid !important;
+    display: none !important;
   }
 
   .hero-img {
@@ -15,9 +41,11 @@ body {
   }
 
   .welcome-div {
-    display: grid !important;
-    grid-template-columns: 1fr !important;
+    display: none !important;
+  }
 
+  .desktop-container {
+    display: grid;
   }
 
   .welcome-inner-div {
@@ -26,12 +54,6 @@ body {
 
   }
 
-  .welcome-img-div {}
-
-
-  .welcome-img {}
-
-
 
 
   .icons-div {
@@ -39,9 +61,54 @@ body {
     flex-direction: column;
   }
 
+  .text-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-block: 1rem;
+  }
+
+
+  .experts-mobile-outer {
+    display: flex !important;
+  }
+
+  .experts-desktop-container {
+    display: none !important;
+  }
+
+
+  .details-container {
+    display: none !important;
+  }
+
+  .details-mobile-outer {
+    display: block !important;
+  }
+
+  .details-mobile {
+    display: flex !important;
+  }
+
+
+  .footer-container {
+
+    justify-content: space-between !important;
+  }
+
+  .footer-text-container {}
 
 
 
 
+}
 
+
+@media (max-Width : 600px) {
+  .footer-container {
+    flex-direction: column !important;
+    justify-content: center !important;
+    gap: 1rem !important;
+  }
 }

@@ -21,7 +21,7 @@ export default function EighthSection() {
       whileInView={{ opacity: 1 }}
       transition={{ delay: 0.5, duration: 1.5 }}
     >
-      <div style={{ maxWidth: '1100px', padding: '3rem' }}>
+      <div id='about' style={{ maxWidth: '1100px', padding: '3rem' }}>
         <h1 style={{ fontSize: '2.5rem', fontWeight: 'bold', marginBottom: '1rem' }}>
           Your Car Deserves the Best
         </h1>

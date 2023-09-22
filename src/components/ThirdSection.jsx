@@ -9,6 +9,7 @@ export default function ThirdSection() {
       transition={{ delay: 0.3, duration: 1.7 }}
     >
       <div
+        className='experts-desktop-container'
         style={{
           display: 'flex',
           borderBottom: '1px solid #151c5214',
@@ -52,6 +53,51 @@ export default function ThirdSection() {
             src='../../public/deniz-demirci-0UeHGWsFyHM-unsplash.jpg'
             alt=''
           />
+        </div>
+      </div>
+      <div className='experts-mobile-outer' style={{ display: 'none' }}>
+        <div className='experts-mobile-container'>
+          <div
+            style={{
+              display: 'flex',
+              flexDirection: 'column',
+              justifyContent: 'center',
+              alignItems: 'center',
+              paddingBlock: '1rem',
+            }}
+          >
+            <h2
+              style={{
+                paddingBlock: '1rem',
+                fontWeight: '300',
+                paddingTop: '3rem',
+              }}
+            >
+              Meet Our Expert Detailers
+            </h2>
+
+            <p
+              style={{
+                marginBlock: '1rem',
+                fontWeight: '200',
+                lineHeight: '2.1rem',
+                maxWidth: '70ch',
+              }}
+            >
+              At Supreme Detailing, we take pride in our team of expert car detailers. They have years of
+              experience and are passionate about making your vehicle look its best.
+            </p>
+          </div>
+          <div style={{}}>
+            <img
+              style={{
+                objectFit: 'cover',
+                maxWidth: '100%',
+              }}
+              src='../../public/deniz-demirci-0UeHGWsFyHM-unsplash.jpg'
+              alt=''
+            />
+          </div>
         </div>
       </div>
     </motion.div>

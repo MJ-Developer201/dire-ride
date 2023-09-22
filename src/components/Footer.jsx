@@ -33,6 +33,7 @@ export default function Footer() {
         <Divider />
 
         <footer
+          id='footer'
           style={{
             backgroundColor: 'black',
             color: 'white',
@@ -40,7 +41,7 @@ export default function Footer() {
           }}
         >
           <Container maxWidth='lg'>
-            <Grid container justifyContent='space-between' alignItems='center'>
+            <Grid className='footer-container' container justifyContent='space-between' alignItems='center'>
               <Grid item>
                 <IconButton>
                   <FacebookIcon style={{ color: 'white' }} />
@@ -58,7 +59,7 @@ export default function Footer() {
                   <PinterestIcon style={{ color: 'white' }} />
                 </IconButton>
               </Grid>
-              <Grid item>
+              <Grid item className='footer-text-container'>
                 <div
                   style={{
                     textAlign: 'center',
