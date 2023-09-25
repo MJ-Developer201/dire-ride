@@ -50,7 +50,7 @@ export default function ThirdSection() {
               height: '300px',
               maxWidth: '100%',
             }}
-            src='../../public/deniz-demirci-0UeHGWsFyHM-unsplash.jpg'
+            src='/deniz-demirci-0UeHGWsFyHM-unsplash.jpg'
             alt=''
           />
         </div>
@@ -94,7 +94,7 @@ export default function ThirdSection() {
                 objectFit: 'cover',
                 maxWidth: '100%',
               }}
-              src='../../public/deniz-demirci-0UeHGWsFyHM-unsplash.jpg'
+              src='/deniz-demirci-0UeHGWsFyHM-unsplash.jpg'
               alt=''
             />
           </div>

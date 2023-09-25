@@ -18,7 +18,7 @@ export default function SeventhSection() {
       transition={{ delay: 0.5, duration: 1.7 }}
       style={{
         display: 'grid',
-        gap: '1rem',
+
         gridTemplateColumns: '1fr 1fr 1fr',
         justifyContent: 'space-evenly',
         padding: '3rem',

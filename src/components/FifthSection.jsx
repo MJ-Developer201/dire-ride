@@ -13,7 +13,7 @@ export default function FifthSection() {
       <div style={{}}>
         <img
           style={{ objectFit: 'cover', height: '100%', width: '100%' }}
-          src='../../public/chuttersnap-gts_Eh4g1lk-unsplash.jpg'
+          src='/chuttersnap-gts_Eh4g1lk-unsplash.jpg'
           alt=''
         />
       </div>
@@ -21,21 +21,21 @@ export default function FifthSection() {
       <div>
         <img
           style={{ objectFit: 'cover', height: '100%', width: '100%' }}
-          src='../../public/maxim-hopman-2GqwfocQI6Q-unsplash.jpg'
+          src='/maxim-hopman-2GqwfocQI6Q-unsplash.jpg'
           alt=''
         />
       </div>
       <div>
         <img
           style={{ objectFit: 'cover', height: '100%', width: '100%' }}
-          src='../../public/timothy-dykes-np52xKlGB-I-unsplash.jpg'
+          src='/timothy-dykes-np52xKlGB-I-unsplash.jpg'
           alt=''
         />
       </div>
       <div>
         <img
           style={{ objectFit: 'cover', height: '100%', width: '100%' }}
-          src='../../public/jorge-simmons-valenzuela-dlRbuXvknOc-unsplash.jpg'
+          src='/jorge-simmons-valenzuela-dlRbuXvknOc-unsplash.jpg'
           alt=''
         />
       </div>

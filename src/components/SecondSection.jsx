@@ -60,7 +60,7 @@ export default function BelowTheFold() {
                   height: '300px',
                   maxWidth: '100%',
                 }}
-                src='../../public/william-daigneault-xm8S8wnCcC0-unsplash.jpg'
+                src='/william-daigneault-xm8S8wnCcC0-unsplash.jpg'
                 alt=''
               />
             </div>
@@ -97,7 +97,7 @@ export default function BelowTheFold() {
 
                   maxWidth: '100%',
                 }}
-                src='../../public/william-daigneault-xm8S8wnCcC0-unsplash.jpg'
+                src='/william-daigneault-xm8S8wnCcC0-unsplash.jpg'
                 alt=''
               />
             </div>

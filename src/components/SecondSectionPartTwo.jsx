@@ -56,7 +56,7 @@ export default function SecondSectionPartTwo() {
               height: '300px',
               maxWidth: '100%',
             }}
-            src='../../public/pexels-luke-miller-14231684.jpg'
+            src='/pexels-luke-miller-14231684.jpg'
             alt=''
           />
         </div>
@@ -102,7 +102,7 @@ export default function SecondSectionPartTwo() {
 
               maxWidth: '100%',
             }}
-            src='../../public/pexels-luke-miller-14231684.jpg'
+            src='/pexels-luke-miller-14231684.jpg'
             alt=''
           />
         </div>
